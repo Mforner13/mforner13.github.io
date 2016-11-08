@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script'); 
+
+.nav a {
+  color: #e6f3ff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.navbar-default {
+    background-color: #304155;
+    height: 45px;
+}    
+
+.jumbotron {
+  background-image:url('http://www.photoscotland.net/wp-content/gallery/landscape/bow-fiddle-rock-pano.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: auto 120%;
+  border-bottom: 1px solid #304155;
+}
+
+p {
+	font-family: Arial;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 60px;  
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #304155;
+}
+
+.learn-more p {
+    color: #304155
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.recent-picks {
+    background-color: #e6f3ff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.recent-picks h2 {
+    color: #304155;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.recent-picks p {
+    font-size: 15px;
+    margin-bottom: 13px;
+    color: #304155;
+}
+
+.thumbnail img {
+    border-radius: 5%   
+}
