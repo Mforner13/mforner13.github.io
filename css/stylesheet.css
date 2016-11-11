@@ -109,6 +109,9 @@ p {
   padding-bottom: 50px;
 }
 
+.dropdown-menu ul {
+  display: none;
+}
 
 .dropdown-item a {
  text-align: center;
@@ -116,8 +119,9 @@ p {
 
 ul.dropdown-menu {
   background-color: #e6f3ff;
+  text-align: center;
 }
 
-a.dropdown-menu {
-  color: red;
+.dropdown-menu {
+  margin-top: 0;
 }
