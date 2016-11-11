@@ -102,3 +102,9 @@ p {
 .bottom-links {
   padding-bottom: 50px;
 }
+
+ul.dropdown {
+  display: none;
+  box-sizing: border-box;
+}
+

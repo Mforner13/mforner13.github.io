@@ -5,6 +5,8 @@
     <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.1.1.min"></script>
+    <script src="js/myjQuery.js"></script>
     <title>Out of Bounds</title>
     
   </head>
@@ -15,7 +17,14 @@
         <ul class="pull-left">
           <li><a href="#">Home</a></li>
           <li><a href="#">About us</a></li>
-          <li><a href="#">Choose your price</a></li>
+          <li class="drpdwn-menu"><a href="#">Choose your price</a>
+          	<ul class="dropdown">
+	          	<li><a href="#">0-£250</a>
+	          	<li><a href="#">£250-£500</a>
+	          	<li><a href="#">£500-£750</a>
+	          	<li><a href="#">£750-£1,000</a>
+          	</ul>
+          </li>
         </ul>
         <ul class="pull-right">
           <li><a href="#">Blog</a></li>
