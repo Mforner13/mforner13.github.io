@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$(this).find("ul.dropdown-menu").hide();
 	$("li.drpdwn-menu").hover(function(){
 		$(this).find("ul.dropdown-menu").show(100);
 	}, function() {
