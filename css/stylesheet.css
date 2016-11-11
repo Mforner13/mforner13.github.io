@@ -8,14 +8,20 @@
   text-transform: uppercase;
 }
 
-.nav li {
+.hover-item {
+  color:; black;
+}
+
+.nav ul {
   display: inline;
-  padding-top: 10px;
+}
+.nav li {
+  display: inline-block;
 }
 
 .navbar-default {
     background-color: #304155;
-    height: 42px;
+    height: 40px; 
 }    
 
 .jumbotron {
@@ -103,8 +109,18 @@ p {
   padding-bottom: 50px;
 }
 
-ul.dropdown {
+.dropdown-menu ul {
   display: none;
-  box-sizing: border-box;
 }
 
+.dropdown-item a {
+ text-align: center;
+}
+
+ul.dropdown-menu {
+  background-color: #e6f3ff;
+}
+
+a.dropdown-menu {
+  color: red;
+}
