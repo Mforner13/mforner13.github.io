@@ -22,7 +22,7 @@
   background-image:url('http://www.photoscotland.net/wp-content/gallery/landscape/bow-fiddle-rock-pano.jpg');
   height: 500px;
   background-repeat: no-repeat;
-  background-size: auto 120%;
+  background-size: 100%;
   margin-bottom: 0;
   border-bottom: 1px solid #304155;
 }
