@@ -155,19 +155,20 @@ img.about {
 }
 
 div.text-about {
-  height: 180px;
+  height: 190px;
   border-radius: 5px;
   border: solid 3px #304155;
 }
 
 div.map {
+  padding-bottom: 50px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
 }
 
 iframe.map {
-  border: solid 3px #304155
+  border: solid 3px #304155;
 }
 
 p.about {
