@@ -103,6 +103,7 @@ p {
 
 .thumbnail img {
   border-radius: 5px;
+  height: 200px;
 }
 
 .bottom-links {
@@ -122,6 +123,58 @@ ul.dropdown-menu {
   text-align: center;
 }
 
+a.dropdown-menu {
+  text-align: center;
+}
+
 .dropdown-menu {
   margin-top: 0;
+  font-family: Arial;
+}
+
+div.about {
+  position: absolute;
+  background-color: #e6f3ff;
+  height: cover;
+  width: 100%;
+}
+
+h2.about {
+  font-family: 'Dancing Script', cursive;
+  color: #304155;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+img.about {
+  height: 180px;
+  width: 220px;
+  border-radius: 5px;
+  border: solid 3px #304155;
+}
+
+div.text-about {
+  height: 180px;
+  border-radius: 5px;
+  border: solid 3px #304155;
+}
+
+div.map {
+  margin-left: 110px;
+  margin-right: 90px;
+  padding-bottom: 50px;
+}
+
+iframe.map {
+  border: solid 3px #304155
+}
+
+p.about {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  font-family: Arial;
+  font-size: 16px;
+  color: #304155;
+  text-align: center;
 }
