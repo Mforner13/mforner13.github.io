@@ -10,5 +10,12 @@ $(document).ready(function(){
 	}, function() {
 		$(this).css("color", "#e6f3ff");
 	});
+	$("img.destinations").mouseenter(function(){
+		$(this).css("border", "solid 3px #304155");
+	});
+	$("img.destinations").mouseleave(function(){	
+		$(this).css("border", "none");
+	});
+	$('.bxslider').bxSlider();
 });
 
