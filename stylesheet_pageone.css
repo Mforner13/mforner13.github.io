@@ -237,3 +237,10 @@ a.twitter-follow-button {
 
 div.text-brescia {
   background-color: #F0F8FF;
+}
+
+img.carousel {
+  margin: auto;
+  width: 600px;
+  height: 300px;
+}
