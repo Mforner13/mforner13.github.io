@@ -210,3 +210,7 @@ h1.contact {
   font-size: 55px;
   padding-top: 10px;
 }
+
+a.twitter-follow-button {
+  margin: auto;
+}
