@@ -93,12 +93,12 @@ p {
     color: #304155;
 }
 
-.thumbnail{
+.thumbnail {
   background: transparent;
   border: 0 hidden;
   box-shadow: none;
-  border-radius: 5px;
   padding-bottom: 20px
+  height: 200px;
 }
 
 .thumbnail img {
